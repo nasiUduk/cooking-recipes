@@ -31,3 +31,19 @@
     transform: rotate(360deg);
   }
 }
+
+.recipe-row {
+  display: flex;
+}
+
+.col-200 {
+  width: 200px;
+}
+
+.col-400 {
+  width: 400px;
+}
+
+div {
+  text-align: left;
+}

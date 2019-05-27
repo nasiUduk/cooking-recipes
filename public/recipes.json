@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Ayam Pop",
+        "desc" : "Padang fried chicken cooked in broth of coconut milk"
+    },
+    {
+        "id": 2,
+        "name": "Rendang",
+        "desc": "Beef cooked with coconut milk"
+    },
+    {
+        "id": 3,
+        "name": "Lempah Cukut",
+        "desc": "Bangka's Yellow curry pork ribs"
+    },
+    {
+        "id": 4,
+        "name": "Lempah Darat",
+        "desc": "Bangka's spicy clear curry with assorted vegetables"
+    }
+]
