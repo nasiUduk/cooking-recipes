@@ -11,6 +11,12 @@ export function Recipes() {
     }
 
     return (
+        <>
+        <section>
+            <button onClick={()=> navigate('recipe/add')}>
+                New
+            </button>
+        </section>
         <ul>
             {
                 recipes.map((recipe) => {
@@ -22,5 +28,6 @@ export function Recipes() {
             })
             }
         </ul>
+        </>
     );
 }

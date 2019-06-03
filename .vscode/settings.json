@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "serverId": "dhl",
+        "projectKey": "com.dhl.mars:mars"
+      }
+}

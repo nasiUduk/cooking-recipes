@@ -4,10 +4,8 @@ export function useFetchRecipes() {
     const [recipes, setRecipes] = useState([]);
 
     useEffect(() => {
-        if (recipes.length > 0) return;
-        
-        loadRecipes().then(recipes => setRecipes(recipes))
-    });
+        loadRecipes().then(result => setRecipes(result))
+    }, []);
 
     return recipes;
 }
@@ -17,17 +15,15 @@ export function useFetchRecipe(id) {
 
     useEffect(() => {
         loadRecipes()
-        .then(recipes => setRecipe(recipes.find(r => r.id === id)));
-
+            .then(recipes => setRecipe(recipes.find(r => r.id === id)));
     }, [id]);
 
     return recipe;
 }
 
 function loadRecipes() {
-    return fetch('http://localhost:3000/recipes.json')
+    return fetch('/recipes.json')
         .then(res => {
             return res.json()
         });
-
 }

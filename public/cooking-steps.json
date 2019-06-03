@@ -1,0 +1,32 @@
+[
+    {
+        "recipeId": 1,
+        "steps": [
+            {
+                "sequence": 1,
+                "name": "Heat butter in a pot and stir fry the garlic until fragrant",
+                "durationInSec": 5
+            },
+            {
+                "sequence": 2,
+                "name": "Add salt, pepper, sugar, water, and coconut juice. Mix well and bring to a boil",
+                "durationInSec": 0
+            },
+            {
+                "sequence": 3,
+                "name": "Add chicken pieces into the pot and cook until chicken is tender",
+                "durationInSec": 3
+            },
+            {
+                "sequence": 4,
+                "name": "Drain and set aside",
+                "durationInSec": 0
+            },
+            {
+                "sequence": 5,
+                "name": "Heat enough oil in a pot for deep frying, fry the chicken pieces until slightly golden brown (it should still be quite whitish). Serve immediately with chili and sweet soy sauce sambal",
+                "durationInSec": 0
+            }
+        ]
+    }
+]
